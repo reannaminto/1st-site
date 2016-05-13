@@ -1,0 +1,67 @@
+body {
+background-color:#99afff;
+font-family:"chalkboard";
+color:black;
+}
+
+#navigation {
+padding: 0;
+margin: 0;
+}
+
+#navigation li {
+display: inline;
+float: left;
+}
+
+#navigation a, #navigation a:visited {
+display: block;
+width: 6em;
+font-size: 0.8em;
+text-align: center;
+text-decoration:none;
+}
+
+#pic1 img { 
+	box-shadow: 8px 8px 10px #3d3d5c; 
+}
+
+#pic2 img {
+	border: 10px double #3d3d5c;
+}
+
+#pic3 img {
+	border: 15px solid #3d3d5c;	
+	padding: 10px;
+}
+
+#pic4 img {
+	border-radius: 60%
+}
+
+#pic5 img {
+	opacity:0.8;
+	
+	
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
